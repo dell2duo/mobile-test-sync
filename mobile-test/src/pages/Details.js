@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 
 export const DetailsScreen = ({ route }) => {
   const { user } = route.params;
-  console.log(route.params);
+
   return (
     <View
       style={{
